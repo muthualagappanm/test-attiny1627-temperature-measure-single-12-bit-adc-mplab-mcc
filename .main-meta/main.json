@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny1627-temperature-measure-single-12-bit-adc-mplab-mcc",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Measuring the Internal Temperature Sensor using the 12-bit ADC in Single Mode",
         "projectName": "attiny1627-temperature-measure-single-12-bit-adc-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This code example shows how to use the ADC on tinyAVR® 2 Family microcontrollers to measure the internal temperature sensor",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": ""
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.31.0"
+            }
+        ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^2.6.122"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=4.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,27 +32,37 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATtiny1627",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Erling Holten Wiken",
         "subcategories": [
+			[
+                "Peripherals", "ADC"
+			]
         ],
         "peripherals": [
+            "ADC"
         ],
         "keywords": [
+            "12-bit ADC",
+			"Differential ADC",
+			"Single mode",
+			"Internal Temperature Sensor",
+            "Curiosity Nano",
+			"Melody"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
