@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny1627-temperature-measure-single-12-bit-adc-mplab-mcc",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "displayName": "Test Measuring the Internal Temperature Sensor using the 12-bit ADC in Single Mode",
         "projectName": "test-attiny1627-temperature-measure-single-12-bit-adc-mplab-mcc",
         "shortDescription": "This code example shows how to use the ADC on tinyAVR® 2 Family microcontrollers to measure the internal temperature sensor",

@@ -55,11 +55,46 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 
 	![ADC](images/ADC_02.png)
 
-### Test ADC Configuration 4 - new line  and one space for second item
+### Test ADC Configuration 5 - new line  and one space for second item
 	
 ![ADC](images/ADC_01.png)
 
  ![ADC](images/ADC_02.png)
+
+### ADC Configuration 6 - numerous spaces for 2nd
+
+![ADC](images/ADC_01.png)
+                                                    ![ADC](images/ADC_02.png)
+
+### ADC Configuration 7 - double tab for second
+
+![ADC](images/ADC_01.png)
+		![ADC](images/ADC_02.png)
+
+### ADC Configuration 8 - double tab for second
+
+![ADC](images/ADC_01.png)
+		![ADC](images/ADC_02.png)
+		
+### ADC Configuration 9 - triple tab for second
+
+![ADC](images/ADC_01.png)
+			![ADC](images/ADC_02.png)
+		
+### ADC Configuration 10 - two new lines for 2nd
+
+![ADC](images/ADC_01.png)
+
+
+![ADC](images/ADC_02.png)
+
+### ADC Configuration 11 - 3 new lines for 2nd
+
+![ADC](images/ADC_01.png)
+
+
+
+![ADC](images/ADC_02.png)
 
 ### ADC Configuration
 
