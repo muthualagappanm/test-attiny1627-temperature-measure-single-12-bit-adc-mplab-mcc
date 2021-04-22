@@ -48,8 +48,19 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 
 ## Operation
 
+![set_as_main_project](images/set_as_main_proj.png)
 - Download the zip file or clone the example to get the source code
+![set_as_main_project](images/set_as_main_proj.png)
 - Open the .X file with the MPLAB® X IDE
+	![set_as_main_project](images/set_as_main_proj.png)
+- Open the .X file with the MPLAB® X IDE
+
+![set_as_main_project](images/set_as_main_proj.png)
+- Open the .X file with the MPLAB® X IDE
+ ![set_as_main_project](images/set_as_main_proj.png)
+- Open the .X file with the MPLAB® X IDE
+
+	![set_as_main_project](images/set_as_main_proj.png)
 - Set the *attiny1627-temperature-measure-single-12-bit-adc-mplab-mcc* project as Main project by right-clicking on the project title
 
 	![set_as_main_project](images/set_as_main_proj.png)
@@ -93,6 +104,7 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 	   </p> 
 		<!-- ![watch_readout](images/watch_readout.png) -->
 
+![set_as_main_project](images/set_as_main_proj.png)
 
 ## Summary
 
