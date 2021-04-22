@@ -34,6 +34,32 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 
 ![Peripherals](images/peripherals.png)
 
+### Test ADC Configuration - One tab for the first one
+
+	![ADC](images/ADC_01.png)
+![ADC](images/ADC_02.png)
+
+### Test ADC Configuration 2 - One tab for the first one and removed new line
+	![ADC](images/ADC_01.png)
+![ADC](images/ADC_02.png)
+
+### Test ADC Configuration 3 - new line for second item
+	
+![ADC](images/ADC_01.png)
+
+![ADC](images/ADC_02.png)
+
+### Test ADC Configuration 4 - new line  and one tab for second item
+	
+![ADC](images/ADC_01.png)
+
+	![ADC](images/ADC_02.png)
+
+### Test ADC Configuration 4 - new line  and one space for second item
+	
+![ADC](images/ADC_01.png)
+
+ ![ADC](images/ADC_02.png)
 
 ### ADC Configuration
 
@@ -45,22 +71,58 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 - Connect the ATtiny1627 Curiosity Nano to a computer using USB cable 
 - Download and install all software components as listed under 'Software Used'
 
+## Test Operation
+
+
+- Download the zip file or clone the example to get the source code
+- Open the .X file with the MPLAB® X IDE
+- Set the *attiny1627-temperature-measure-single-12-bit-adc-mplab-mcc* project as Main project by right-clicking on the project title - removed tab
+
+![set_as_main_project](images/set_as_main_proj.png)
+
+- Program the project to the ATtiny1627 Curiosity Nano: 
+
+	- First clean and build the project by pressing the *Clean and Build Main Project* button - removed a new line
+		![clean_and_build](images/clean_and_build.png)
+
+	- Then make and progam the project to the ATtiny1627 by clicking the *Make and Program Device Main Project* button - removed one tab and one given empty space
+	
+	 ![make_and_prog](images/make_and_prog.png)
+	
+- To verify that the code is working:
+
+	- Add a Watch to the **temperature_in_degC** variable found in *main.c*
+
+		<p align="">
+			<img width=1000px height=auto src="images/add_watch.png">
+	   </p> 
+	
+	- Select the *Watches* tab
+
+		<p align="">
+			<img width=1000px height=auto src="images/watches_tab.png">
+	   </p> 
+	
+	- Run code in debugging mode by clicking the *Debug Main Project* button - removed 1 tab
+	
+	![debug](images/debug_proj.png)
+	
+	- Pause the debug session by clicking the *Pause* button - removed 2 tabs
+	
+![debug_pause](images/debug_pause.png)
+	
+	- Now you can read out the latest measurement in the *Watches* tab. Notice that the readout value is in hex format, so remember to convert to decimal value (0x0018 = 24).
+	
+		<p align="">
+			<img width=1000px height=auto src="images/watch_readout.png">
+	   </p> 
+		<!-- ![watch_readout](images/watch_readout.png) -->
+
 
 ## Operation
 
-![set_as_main_project](images/set_as_main_proj.png)
 - Download the zip file or clone the example to get the source code
-![set_as_main_project](images/set_as_main_proj.png)
 - Open the .X file with the MPLAB® X IDE
-	![set_as_main_project](images/set_as_main_proj.png)
-- Open the .X file with the MPLAB® X IDE
-
-![set_as_main_project](images/set_as_main_proj.png)
-- Open the .X file with the MPLAB® X IDE
- ![set_as_main_project](images/set_as_main_proj.png)
-- Open the .X file with the MPLAB® X IDE
-
-	![set_as_main_project](images/set_as_main_proj.png)
 - Set the *attiny1627-temperature-measure-single-12-bit-adc-mplab-mcc* project as Main project by right-clicking on the project title
 
 	![set_as_main_project](images/set_as_main_proj.png)
@@ -104,7 +166,6 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 	   </p> 
 		<!-- ![watch_readout](images/watch_readout.png) -->
 
-![set_as_main_project](images/set_as_main_proj.png)
 
 ## Summary
 
