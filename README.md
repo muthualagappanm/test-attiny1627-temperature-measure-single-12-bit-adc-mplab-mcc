@@ -63,8 +63,37 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 		- Hello 4
 		  ![ADC](images/ADC_02.png)
 
+- Hello 5 - 1 space
 
+ ![ADC](images/ADC_02.png)
 
+- Hello 6 - 2 space
+
+  ![ADC](images/ADC_02.png)
+
+- Hello 7 - 4 space
+
+    ![ADC](images/ADC_02.png)
+
+- Hello 8 - 10 space
+
+          ![ADC](images/ADC_02.png)
+
+	- Hello 9 - 1 space - Nested
+
+	![ADC](images/ADC_02.png)
+
+	- Hello 10 - 1 tab
+
+		![ADC](images/ADC_02.png)
+
+	- Hello 11 - 2 tab
+
+			![ADC](images/ADC_02.png)
+
+	- Hello 12 - 3 tabs
+
+				![ADC](images/ADC_02.png)
 ## Operation
 
 - Download the zip file or clone the example to get the source code
@@ -87,15 +116,15 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 
 	- Add a Watch to the **temperature_in_degC** variable found in *main.c*
 
-		<p align="">
-			<img width=1000px height=auto src="images/add_watch.png">
-	   </p> 
+<p align="">
+	<img width=1000px height=auto src="images/add_watch.png">
+</p> 
 	
 	- Select the *Watches* tab
 
-		<p align="">
-			<img width=1000px height=auto src="images/watches_tab.png">
-	   </p> 
+<p align="">
+	<img width=1000px height=auto src="images/watches_tab.png">
+</p> 
 	
 	- Run code in debugging mode by clicking the *Debug Main Project* button
 	
